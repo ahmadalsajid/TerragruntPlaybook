@@ -34,3 +34,9 @@ override.tf.json
 terraform.rc
 
 .idea/
+.vscode
+.DS_Store
+
+# Ignore Terragrunt generated directories/files
+.terragrunt-cache/
+
