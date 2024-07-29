@@ -1,6 +1,7 @@
 # not needed if not want to connect the private subnet via NAT gateway
 resource "aws_eip" "this" {
-  vpc = true
+#   vpc = true
+  domain ="vpc"
 
   tags = {
     Name = "${var.env}-nat"
